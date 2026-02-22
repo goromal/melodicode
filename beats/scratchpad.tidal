@@ -33,10 +33,11 @@ d4 $ s "[hh:5 hh:0]!15"  # djf 0.3
 -- d2 $ sound "sn sn:2 sn bd sn"
 
 setcps 0.3
-
 d1 $ s "hh*16"
 d2 $ s "~ ~ cp ~ ~ ~ cp ~ ~ ~ cp [~ ~] [~ ~] ~ cp hh:2"
 d3 $ s "bd bd sn:2 bd bd bd sn:2 bd bd bd sn:2 [bd bd] [bd bd] bd sn:2 bd"
+-- TODO: slow down tempo, add LPFs, add melody of "Time is running out"
+
 d4 $ hurry 2 $ sound "[arpy arpy] [arpy arpy] [arpy arpy] ~" # up "[-3 -1] [0 -3] [-1 0] 0"
 -- d4 $ s "numbers:1 numbers:2 numbers:3 numbers:4"
 
