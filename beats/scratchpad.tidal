@@ -1,0 +1,83 @@
+-- https://tidalcycles.org/docs/patternlib/tutorials/workshop
+
+-- flick sid can metal future gabba sn mouth co gretsch mt arp h cp
+-- cr newnotes bass hc tabla bass0 hh bass1 bass2 oc bass3 ho odx
+-- diphone2 house off ht tink perc bd industrial pluck trump printshort
+-- jazz voodoo birds3 procshort blip drum jvbass psr wobble drumtraks koy
+-- rave bottle kurt latibro rm sax lighter lt arpy feel less stab ul
+
+-- setcps = "set cycles per second"
+-- This controls the tempo/speed of the pattern
+-- 0.9 cycles per second = about 54 BPM (beats per minute)
+-- Higher numbers = faster tempo, lower numbers = slower tempo
+setcps 0.3
+
+-- d1 = dirt channel 1 (one of many audio channels you can use)
+-- TidalCycles has d1 through d9 by default, each can play independent patterns
+-- $ = function application operator (feeds the pattern to d1)
+
+-- sound = tells TidalCycles which samples to play
+-- The pattern is inside quotes, space-separated
+setcps 0.15
+d1 $ s "trump trump [trump trump trump] [trump trump trump] trump trump [trump trump trump] [trump trump trump] trump trump [trump trump trump] [trump trump trump] trump ~ ~" # up "-2 1 [1 1 1] [0 0 0] -4 -7 [-7 -7 -7] [-5 -5 -5] -4 -2 [-2!3] [0 -2 -4] -5 0 0"
+d2 $ s "cp!15"
+d3 $ s "bd!15"
+d4 $ s "[hh:5 hh:0]!15"  # djf 0.3
+-- Pattern breakdown:
+-- "bd bd hh bd sn bd hh bd" = 8 sounds that loop continuously
+--  bd = bass drum (kick drum)
+--  hh = hi-hat (cymbals)
+--  sn = snare drum
+-- This creates: kick kick hat kick snare kick hat kick (repeating)
+-- d1 $ sound "bd bd hh bd sn bd hh bd"
+-- d2 $ sound "sn sn:2 sn bd sn"
+
+setcps 0.3
+
+d1 $ s "hh*16"
+d2 $ s "~ ~ cp ~ ~ ~ cp ~ ~ ~ cp [~ ~] [~ ~] ~ cp hh:2"
+d3 $ s "bd bd sn:2 bd bd bd sn:2 bd bd bd sn:2 [bd bd] [bd bd] bd sn:2 bd"
+d4 $ hurry 2 $ sound "[arpy arpy] [arpy arpy] [arpy arpy] ~" # up "[-3 -1] [0 -3] [-1 0] 0"
+-- d4 $ s "numbers:1 numbers:2 numbers:3 numbers:4"
+
+d1 $ sound "drum drum drum drum" # vowel "<a o e e>"
+d1 $ vowel "a o ~ i" # sound "drum"
+
+d1 $ sound "bd hh sn:1 hh sn:1 hh" # gain "1 0.7 0.5"
+
+d1 $ sound "numbers:1 numbers:2 numbers:3 numbers:4" # speed "1 1.5 2 0.5"
+
+d1 $ sound "cp" # delay 0.8 # delaytime (1/6) # delayfeedback 0.6 # lock 1
+d1 $ sound "industrial:3*4" # delay "<0 0.4 0.8>" # delaytime "0.2 0.05" # delayfeedback "<0.5 0.9>" # lock 1
+
+d1 $ sound "[~ sn]*2" # dry 0.4 # room 0.6 # size 0.8
+
+d1 $ sound "kurt:4 kurt:4" # shape "0 0.78" # gain "0.7"
+
+-- Pitching
+d1 $ speed "1 2 4" # sound "jungbass:6"
+d4 $ up "0 ~ 6 24" # sound "jungbass:6"
+
+d1 $ sound "numbers:1 numbers:2 numbers:3 numbers:4" # pan "0 0.5 1"
+
+d1 $ sound "bd!3 sn"
+d2 $ s "sn sn:1 sn:2 sn:3 sn:4"
+d3 $ s "hh hh:1 hh:2 hh:3 hh:4"
+d1 $ sound "bd [bd cp] bd bd"
+
+-- filters
+d1 $ sound "tabla*4" # n "0 1 2 3"
+d4 $ sound "tabla*4" # n "0 1 2 3" # djf 0.3
+d1 $ sound "tabla*4" # n "0 1 2 3" # cutoff 400 # resonance 0.2
+d1 $ sound "tabla*4" # n "0 1 2 3" # djf 0.8
+d1 $ sound "tabla*4" # n "0 1 2 3" # hcutoff 600 # hresonance 0.2
+
+-- distributive property
+d1 $ sound "bd <sd cp arpy>"
+d1 $ sound "<bd sn> <sd [cp cp]> <bd [cp cp]>"
+
+-- tempo (and pitch) transforms
+d1 $ sound "arpy arpy:1 arpy:2 arpy:3"
+d1 $ slow 2 $ sound "arpy arpy:1 arpy:2 arpy:3"
+d1 $ sound "arpy arpy arpy:1 arpy:2"
+d1 $ hurry 0.5 $ sound "arpy arpy arpy:1 arpy:2"
