@@ -1,0 +1,57 @@
+X:1
+T:ET - The Extraterrestrial (Epilogue)
+C:John Williams
+M:4/4
+L:1/12
+Q:1/4=200
+K:C
+V:1
+V:2 bass 
+%
+[V:1] !tenuto!_d'f_d !tenuto!c'fc !tenuto!_d'f_d !tenuto!_a'_d'_a| !tenuto!g'_d'g !tenuto!f'_af !tenuto!_e'g_e !tenuto!_d'f_d|
+[V:2] (_D,,3/2_A,,3/2F,3/2_A,3/2 _D3/2_A,3/2 F,3) | (_D,,3/2_A,,3/2F,3/2_A,3/2 _D3/2_A,3/2 F,3)|
+%
+[V:1] !tenuto!c'ec !tenuto!beB !tenuto!c'ec !tenuto!b'c'b | !tenuto!b'c'b !tenuto!c'ec Bce !tenuto!c'ec|
+[V:2] (E,,3/2C,3/2G,3/2C3/2 G3/2C3/2 G,3) | (E,,3/2C,3/2G,3/2C3/2 G3/2C3/2 G,3) |
+%
+[V:1] !tenuto!b^dB !tenuto!^a^d^A !tenuto!b^dB !tenuto!^a'^d'^a | !tenuto!^g'^c'^g !tenuto!^f'b^f !tenuto!^e'^a^e !tenuto!^d'g^d |
+[V:2] (^D,,3/2B,,3/2^F,3/2B,3/2 ^F3/2B,3/2 ^F,3) | (^D,,3/2B,,3/2^F,3/2B,3/2 ^F3/2B,3/2 ^F,3) |
+%
+[V:1] !tenuto!d'^fd !tenuto!^c'^f^c !tenuto!d'^fd !tenuto!^c''d'^c' | !tenuto!^c''d'^c' !tenuto!d'^fd !tenuto!^cdf d'fd |
+[V:2] (^F,,3/2D,3/2A,3/2D3/2 A3/2D3/2 A,3) | (^F,,3/2D,3/2A,3/2D3/2 A3/2D3/2 A,3) |
+%
+[V:1] z3 !tenuto!d'_gd !tenuto!c'_ec !tenuto!d'_gd | !tenuto!_d'f_d !tenuto!f_dF !tenuto!afA !tenuto!_af_A |
+[V:2] (_D,,3/2_A,,3/2 F,9) | (_D,,3/2_A,,3/2 F,9) |
+%
+[V:1] !tenuto!^gd^G !tenuto!^f^c^F !tenuto!^gd^G !tenuto!adA | !tenuto!beB !tenuto!^c'^f^c !tenuto!^c^f^c' !tenuto!^c'^f'^c'' |
+[V:2] (D,,3/2A,,3/2 ^F,9) | (D,,3/2F,,3/2^F,3/2A,3/2 D3/2A,3/2 F,3) |
+%
+[V:1] z3 !tenuto!^c'^f^c !tenuto!^b^e^B !tenuto!^a^d^A | !tenuto!^b^e^B !tenuto!^c'^f^c !tenuto!^d'^g^d !tenuto!^e'^a^e |
+[V:2] [^F,12(^D,,12]&B,,6^B,,6|[D,,6)B,,6] ^A,,3 ^B,,3 |
+%
+[V:1] !tenuto!^e'a^e !tenuto!^f'a^f !tenuto!^g'^c'^g !tenuto!a'^c'a | !tenuto!^g'^c'^g !tenuto!a'^c'a !tenuto!a'c'a !tenuto!b'd'b |
+[V:2] (^F,,3/2^C,3/2 A,9) | (^F,,3/2^C,3/2 A,3) (G,,3/2F,3/2 B,3) |
+%
+[V:1] !tenuto!c'ec !tenuto!beB !tenuto!c'ec !tenuto!g'c'g | !tenuto!^f'c'^f !tenuto!e'ge !tenuto!d'fd !tenuto!c'ec |
+[V:2] (C,,3/2G,,3/2E,3/2G,3/2 E3/2G,3/2 E,3) | (C,,3/2G,,3/2E,3/2G,3/2 E3/2G,3/2 E,3) |
+%
+[V:1] !tenuto!b^dB !tenuto!^a^d^A !tenuto!b^dB !tenuto!^a'b^a | !tenuto!^a'b^a !tenuto!b^dB ^AB^d !tenuto!b^dB |
+[V:2] (^D,,3/2B,,3/2^F,3/2B,3/2 ^F3/2B,3/2 ^F,3) | (^D,,3/2B,,3/2^F,3/2B,3/2 ^F3/2B,3/2 ^F,3) |
+%
+[V:1] !tenuto!_bd_B !tenuto!adA !tenuto!_bd_B !tenuto!a'd'a | !tenuto!g'c'g !tenuto!f'_bf !tenuto!e'ae !tenuto!d'gd |
+[V:2] (D,,3/2_B,,3/2 F,9) | (D,,3/2_B,,3/2 F,9) |
+%
+[V:1] !tenuto!_d'f_d !tenuto!c'fc !tenuto!_d'f_d !tenuto!c''f'c' | !tenuto!c''f'c' !tenuto!_d'f_d !tenuto!c_df !tenuto!_d'f_d |
+[V:2] (F,,3/2_D,3/2 _A,9) | (F,,3/2_D,3/2 _A,9) |
+%
+[V:1] z3 !tenuto!_d'f_d !tenuto!c'ec !tenuto!b^dB | !tenuto!_d'f_d !tenuto!c'ec !tenuto!^f'^a^f !tenuto!g'c'^f |
+[V:2] (E,,3/2C,3/2 G,9) | (E,,3/2C,3/2 G,9) |
+%
+[V:1] !tenuto!_b'_d'_b !tenuto!_b'_d'_b !tenuto!_a'_d'_a !tenuto!_a'_d'_a | !tenuto!g'_bg !tenuto!f'_af !tenuto!_e'g_e !tenuto!_d'f_d |
+[V:2] (F,,3/2_D,3/2 _A,9) | (F,,3/2_D,3/2 _A,9) |
+%
+[V:1] !tenuto!_b'b_b !tenuto!_b'b_b !tenuto!_a'b_a !tenuto!_a'b_a | !tenuto!g'_bg !tenuto!f'_af !tenuto!g'_bg !tenuto!_a'b_a |
+[V:2] (G,,3/2F,3/2 B,9) | (G,,3/2F,3/2 B,9) |
+%
+[V:1] [c'12e'12g'12c''12] |
+[V:2] [C,,12G,,12E,12] |
